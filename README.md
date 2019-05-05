@@ -16,6 +16,7 @@ google-chrome-stable --version
 ```
 
 ダウンロードしたドライバーをrubyのパスが通っている場所に置く
-```bash:rbenv使用の場合の例)
+```bash
+# rbenv使用の場合の例)
 ~/.rbenv/versions/2.4.5/bin/chromedriver
 ```
