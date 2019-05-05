@@ -8,5 +8,6 @@ driver.execute_script('document.body.style.overflow = "hidden"')
 page_width = driver.execute_script('return document.body.scrollWidth')
 page_height = driver.execute_script('return document.body.scrollHeight')
 driver.manage.window.resize_to(page_width, page_height)
+#driver.manage.window.resize_to(1024, 768)
 driver.save_screenshot("./test.png")
 driver.quit
